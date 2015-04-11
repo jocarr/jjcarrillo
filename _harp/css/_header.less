@@ -1,0 +1,30 @@
+#header{
+  
+  //padding-top: 50px;
+  background: @bg-header-file no-repeat ;
+  height: @header-heigh;
+  color: @gray-lighter;
+  //margin-bottom: 50px
+
+}
+
+.logo-header{
+	padding-top: 150px;
+	.center-block();
+}
+
+.color-layer{
+	//padding-top: 150px;
+	background-color: rgb(red(@jj-primary), 
+						   green(@jj-primary), 
+						   blue(@jj-primary)); 
+						   //rgba(0, 123, 17, 0.75)
+
+	.opacity(.75);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: @header-heigh;
+}
+
